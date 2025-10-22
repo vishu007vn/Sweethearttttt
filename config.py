@@ -25,7 +25,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7710642242"))
+OWNER_ID = int(getenv("OWNER_ID", "5877060488"))
 
 LOG = int(getenv("LOG", True))
 
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tabahi_tabahi")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tabahi_tabahi")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shayrirahulki")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/pallavisarkaar")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -95,10 +95,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/eir5a4.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/0rm53h.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/eir5a4.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/0rm53h.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/14eb59ea7d31229d8d751.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/eir5a4.jpg"
