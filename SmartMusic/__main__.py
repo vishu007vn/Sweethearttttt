@@ -50,7 +50,7 @@ async def init():
         pass
     await Hotty.decorators()
     LOGGER("SmartMusic").info(
-        "ᴅʀᴏᴘ ʏᴏᴜʀ ɢɪʀʟꜰʀɪᴇɴᴅ'ꜱ ɴᴜᴍʙᴇʀ ᴀᴛ @smartness_to_hai ᴊᴏɪɴ @tabahi_tabahi , @tabahi_tabahi ꜰᴏʀ ᴀɴʏ ɪꜱꜱᴜᴇꜱ"
+        "ᴅʀᴏᴘ ʏᴏᴜʀ ɢɪʀʟꜰʀɪᴇɴᴅ'ꜱ ɴᴜᴍʙᴇʀ ᴀᴛ @pallavisarkaar ᴊᴏɪɴ @Galiyokabadshah , @@Rajput_0_07 ꜰᴏʀ ᴀɴʏ ɪꜱꜱᴜᴇꜱ"
     )
     await idle()
     await app.stop()
